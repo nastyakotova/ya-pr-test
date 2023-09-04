@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ya-pr-test/static/css/main.c145397c.css",
+    "main.js": "/ya-pr-test/static/js/main.741c4fbb.js",
+    "static/media/photo1.jpg": "/ya-pr-test/static/media/photo1.d80810ada59245d52c7f.jpg",
+    "static/media/photo2.jpg": "/ya-pr-test/static/media/photo2.0074e497a35e408f9f1b.jpg",
+    "index.html": "/ya-pr-test/index.html",
+    "main.c145397c.css.map": "/ya-pr-test/static/css/main.c145397c.css.map",
+    "main.741c4fbb.js.map": "/ya-pr-test/static/js/main.741c4fbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c145397c.css",
+    "static/js/main.741c4fbb.js"
+  ]
+}
