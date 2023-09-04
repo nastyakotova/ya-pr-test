@@ -1,0 +1,67 @@
+.App {
+  display: grid;
+  grid-template-columns: 20em 60em;
+  grid-template-rows: 4em 20em 20em;
+  gap: 20px 30px;
+  grid-template-areas:
+    "header header"
+    "image1 text"
+    "image2 text";
+}
+
+.App-image {
+  width: 20em;
+  height: 20em;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.header {
+  align-self: end;
+  grid-area: header;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image1 {
+  justify-self: center;
+  align-self: center;
+  grid-area: image1;
+}
+
+.image2 {
+  justify-self: center;
+  align-self: center;
+  grid-area: image2;
+}
+
+.text {
+  grid-area: text;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.text * {
+  box-sizing: border-box;
+}
+
+.text p {
+  max-width: 920px;
+  margin: 0 0 20px 0;
+}
+
+.highlight {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  color: #c17a00;
+  font-weight: 600;
+}
